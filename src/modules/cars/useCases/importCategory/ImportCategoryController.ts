@@ -12,7 +12,7 @@ class ImportCategoryController{
 
         importCategoryUseCase.execute(file)
 
-        return response.sendStatus(200)
+        return response.status(201).send()
     }
 }
 
