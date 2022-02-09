@@ -7,6 +7,6 @@
     "database": "rentx",
     "migrations": ["./src/database/migrations/*.ts"],
     "cli": {
-        "migrationsDir": "./src/database/mirations" 
+        "migrationsDir": "./src/database/migrations" 
     }
 }
