@@ -1,5 +1,5 @@
 import { ICreateUserDTO } from "../../dtos/ICreateUserDTO"
-import { User } from "../user"
+import { User } from "../User"
 
 interface IUsersRepository {
     create(data: ICreateUserDTO): Promise<void>
