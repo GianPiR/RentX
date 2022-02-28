@@ -18,17 +18,17 @@ export class CreateRentals1645727126854 implements MigrationInterface {
                     },
                     {
                         name: "start_date",
-                        type: "timestamp()",
+                        type: "timestamp",
                         default: "now()"
                     },
                     {
                         name: "end_date",
-                        type: "timestamp()",
+                        type: "timestamp",
                         isNullable: true
                     },
                     {
                         name: "expect_return_date",
-                        type: "timestamp()",
+                        type: "timestamp",
                     },
                     {
                         name: "total",
@@ -37,12 +37,12 @@ export class CreateRentals1645727126854 implements MigrationInterface {
                     },
                     {
                         name: "created_at",
-                        type: "timestamp()",
+                        type: "timestamp",
                         default: "now()"
                     },
                     {
                         name: "updated_at",
-                        type: "timestamp()",
+                        type: "timestamp",
                         default: "now()"
                     }
                 ],
@@ -52,16 +52,16 @@ export class CreateRentals1645727126854 implements MigrationInterface {
                         referencedTableName: "cars",
                         referencedColumnNames: ["id"],
                         columnNames: ["car_id"],
-                        onDelete: "SET_NULL",
-                        onUpdate: "SET_NULL"
+                        onDelete: "SET NULL",
+                        onUpdate: "SET NULL",
                     },
                     {
                         name: "FKUserRental",
                         referencedTableName: "users",
                         referencedColumnNames: ["id"],
                         columnNames: ["user_id"],
-                        onDelete: "SET_NULL",
-                        onUpdate: "SET_NULL"
+                        onDelete: "SET NULL",
+                        onUpdate: "SET NULL",
                     }
                 ]
             })

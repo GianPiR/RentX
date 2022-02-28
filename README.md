@@ -67,3 +67,11 @@ Não deve ser possível cadastrar um novo aluguel caso já exista um aberto para
 Não deve ser possível cadastrar um novo aluguel caso já exista um aberto para o mesmo carro.
 O usuário deve estar logado na aplicação.
 Ao realizar um aluguel o status do carro deverá ser alterado para indisponível.
+
+# Listagem de Alugueis para usuário
+
+**RF**
+Deve ser possível realizar a busca de todos os alugueis para o usuário
+
+**RN**
+O usuário deve estar logado na aplicação

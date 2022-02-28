@@ -4,12 +4,12 @@ import "express-async-errors"
 import swaggerUI from "swagger-ui-express";
 import "../typeorm";
 import "@shared/container";
-import upload from "@config/upload";
 import { router } from './routes';
 import swaggerFile from "../../../swagger.json";
 import { AppError } from "@shared/errors/AppError";
+import { createConnection } from "typeorm";
 
-
+createConnection()
 const app = express();
 
 app.use(express.json())

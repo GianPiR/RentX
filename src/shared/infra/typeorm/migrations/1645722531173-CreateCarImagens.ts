@@ -30,8 +30,8 @@ export class CreateCarImagens1645722531173 implements MigrationInterface {
                         referencedTableName: "cars",
                         referencedColumnNames: ["id"],
                         columnNames: ["car_id"],
-                        onDelete: "SET_NULL",
-                        onUpdate: "SET_NULL"
+                        onDelete: "SET NULL",
+                        onUpdate: "SET NULL",
                     }
                 ]
             })
