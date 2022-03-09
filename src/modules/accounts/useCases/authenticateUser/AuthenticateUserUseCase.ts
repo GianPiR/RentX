@@ -3,7 +3,7 @@ import { compare } from "bcryptjs"
 import { sign } from "jsonwebtoken"
 import { IUsersRepository } from "../../repositories/IUsersRepository"
 import { AppError } from "@shared/errors/AppError"
-import { IUsersTokensRepository } from "../../repositories/in-memory/IUsersTokensRepository"
+import { IUsersTokensRepository } from "../../repositories/IUsersTokensRepository"
 import auth from "@config/auth"
 import { IDateProvider } from "@shared/container/providers/DateProvider/IDateProvider"
 

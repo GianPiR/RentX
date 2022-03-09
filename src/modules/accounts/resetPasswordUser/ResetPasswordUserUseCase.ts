@@ -1,7 +1,7 @@
 import { IDateProvider } from "@shared/container/providers/DateProvider/IDateProvider";
 import { AppError } from "@shared/errors/AppError";
 import { inject, injectable } from "tsyringe";
-import { IUsersTokensRepository } from "../repositories/in-memory/IUsersTokensRepository";
+import { IUsersTokensRepository } from "../repositories/IUsersTokensRepository";
 import { IUsersRepository } from "../repositories/IUsersRepository";
 import { hash } from "bcryptjs"
 
