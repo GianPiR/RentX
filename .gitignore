@@ -1,9 +1,0 @@
-node_modules
-.vscode
-dist
-coverage
-.env
-.dockerignore
-.gitignore
-.git
-.eslintignore
