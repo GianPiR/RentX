@@ -1,6 +1,6 @@
 import { instanceToInstance } from "class-transformer"
 import { IUserResponseDTO } from "../dtos/IUserResponseDTO";
-import { User } from "../infra/typeorm/entities/user";
+import { User } from "../infra/typeorm/entities/User";
 
 
 class UserMap {

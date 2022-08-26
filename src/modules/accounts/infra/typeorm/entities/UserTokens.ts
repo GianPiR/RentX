@@ -1,6 +1,6 @@
 import { Column, CreateDateColumn, Entity, JoinColumn, ManyToMany, ManyToOne, PrimaryColumn } from "typeorm";
 import { v4 as uuidv4 } from "uuid"
-import { User } from "./user";
+import { User } from "./User";
 
 
 @Entity("users_tokens")

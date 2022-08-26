@@ -12,7 +12,7 @@ class CreateCarSpecificationController {
             CreateCarSpecificationUseCase
         )
 
-        await createCarSpecificationUseCase.execute({
+        const cars = await createCarSpecificationUseCase.execute({
             car_id: id,
             specifications_id
         })
